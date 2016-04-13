@@ -1,28 +1,33 @@
-ul {
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+#navlist {
   list-style-type: none;
   margin: 0px;
   padding: 5px;
   overflow: hidden;
-  background color: #333;
   border: 1px solid grey;
-}
-
-li {
-  float: left;
-}
-
-a {
-  padding: ;
-}
-
-li a {
-  display: block;
-  color: black;
   text-align: center;
-  padding: 14px;
-  text-decoration: none;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding bottom: 17px;
+}
+
+#navlist li {
+  display:inline-block;
 }
 
 li a:hover {
-  background-color: red;
+  background-color: white;
+}
+
+h1 {
+    font-family: "Finger Paint", sans-serif;
+    padding: 25px;
+    text-align: center;
+    font-size: 70px;
+  }
+
+p {
+  text-align: center;
+  font-size: 40px;
 }
