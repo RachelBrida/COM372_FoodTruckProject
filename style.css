@@ -51,7 +51,8 @@ p {
 
 #menu {
   font-size: 60px;
-  padding: 10px;
+  padding: 5px;
+  text-align: left;
 }
 
 h2 {
@@ -68,7 +69,7 @@ h3 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Finger Paint", sans-serif;
   padding: 5px;
   color: #2E0138;
@@ -78,6 +79,8 @@ h3 {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   color: #2E0138;
+  text-align: left;
+  padding: 50px;
 }
 
 #list {
@@ -93,9 +96,14 @@ li {
 #upcomingevents {
   font-size: 50px;
   margin: 10px;
+  float: left;
 }
 
 #lookforbeantruck {
   font-family: "Anton", sans-serif;
   font-size: 30px;
+}
+
+#eventslist {
+  float: left;
 }
