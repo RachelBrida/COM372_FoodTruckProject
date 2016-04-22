@@ -10,8 +10,8 @@
   overflow: hidden;
   border: 1px solid grey;
   text-align: center;
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
+  border-top: 4px solid #481054;
+  border-bottom: 4px solid #481054;
   padding bottom: 17px;
 }
 
@@ -29,7 +29,7 @@ h1 {
     padding: 25px;
     text-align: center;
     font-size: 70px;
-    color: #2E0138;
+    color: #481054;
   }
 
 p {
@@ -62,6 +62,7 @@ h2 {
 
 h3 {
   font-family: "PT Sans Narrow", sans-serif;
+  padding: 10px;
 }
 
 #appetizers {
@@ -72,7 +73,7 @@ h3 {
   font-size: 50px;
   font-family: "Finger Paint", sans-serif;
   padding: 5px;
-  color: #2E0138;
+  color: #481054;
 }
 
 #ourmission {
@@ -80,7 +81,7 @@ h3 {
   font-family: "Oswald", sans-serif;
   color: #2E0138;
   text-align: left;
-  padding: 50px;
+  padding: 30px;
 }
 
 #list {
@@ -95,15 +96,10 @@ li {
 
 #upcomingevents {
   font-size: 50px;
-  margin: 10px;
   float: left;
 }
 
 #lookforbeantruck {
   font-family: "Anton", sans-serif;
   font-size: 30px;
-}
-
-#eventslist {
-  float: left;
 }
