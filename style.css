@@ -96,10 +96,19 @@ li {
 
 #upcomingevents {
   font-size: 50px;
-  float: left;
+  text-align: left;
+  position: static;
 }
 
 #lookforbeantruck {
   font-family: "Anton", sans-serif;
   font-size: 30px;
+  text-align: left;
+  position: static;
+}
+
+#list {
+  text-align: left;
+  color: #2E0138;
+  position: static;
 }
